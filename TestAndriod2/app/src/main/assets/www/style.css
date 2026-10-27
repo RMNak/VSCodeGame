@@ -1,0 +1,33 @@
+body {
+margin: 0;
+padding: 0;
+font-family: Verdana;
+font-size: 16px;
+background: white;
+}
+
+header, footer {
+    background-color: aqua ;
+    color: white;
+    text-align: center;
+    padding: 10px  0px;
+}
+
+.main{
+    padding: 20px 5px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightblue;
+    padding: 10px 0px;
+}   
+
+nav a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+}
